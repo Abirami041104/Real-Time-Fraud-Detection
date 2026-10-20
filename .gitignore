@@ -1,0 +1,23 @@
+venv/
+__pycache__/
+*.py[cod]
+.env
+.streamlit/secrets.toml
+
+# Large datasets and generated CSV files
+data/*.csv
+
+# Generated logs and reports
+logs/
+reports/
+
+# Backup files
+*.bak
+*.bak.*
+*.before_mongodb.bak
+src/kafka_consumer_backup.py
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
